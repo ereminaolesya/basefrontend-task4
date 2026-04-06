@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hero {
+    /*width: 100vw;*/
+    height: 100vh;
+    padding-top: 14.77vh;
+    /*padding-right: 17vw;*/
+    /*padding-left: 17vw;*/
+    /*1920*/
+    /*1083*/
+    /*gap: 1.45vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar {
+    z-index: 2;
+    font-weight: 500;
+    font-size: 1.84vh;
+    line-height: 2.216vh;
+    letter-spacing: 0.063vw;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-bottom: 1.44vh;
+}
+
+.hero-content {
+    text-align: center;
+    z-index: 2;
+    /*max-width: 115.23vh;*/
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 7.941vh;
+    line-height: 8.616vh;
+    letter-spacing: -0.35vw;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 3.168vh;
+}
+
+.hero-button {
+    /*width: 8.802vh;*/
+    /*height: 4.894vh;*/
+    padding: 1.108vh 1.719vw 1.016vh 1.719vw;
+    border-radius: 0.369vh;
+    border: 0.092vh solid #010101;
+    background: #010101;
+
+    font-weight: 700;
+    font-size: 1.2vh;
+    line-height: 2.77vh;
+    letter-spacing: 0.058vw;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 1.431vh;
+}
+
+
+.hero-image {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.features {
+    width: 100%;
+    height: 41.367vh;
+    padding: 9.603vh 19.792vw  7.387vh  19.792vw;
+    gap: 2.216vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.feature-item {
+    /*width: 60.417vh;*/
+    height: 6.648vh;
+    gap: 1.293vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-item h3 {
+    font-weight: 600;
+    font-size: 2.216vh;
+    line-height: 2.77vh;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #010101;
+}
+
+.feature-item p {
+    font-weight: 400;
+    font-size: 1.57vh;
+    line-height: 2.512vh;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #666666;
+}
